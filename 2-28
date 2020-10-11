@@ -1,0 +1,50 @@
+ #include<iostream>                                           //第一问
+       using namespace std;
+
+       int main()
+       {
+            char x;
+            cout<<"Menu: A(dd) D(elete) S(ort) Q(uit,Select one:)";
+            cin>>x;
+            if(x == 'A')
+               cout<<"数据已经增加";
+       
+             else
+                if(x == 'D')
+                cout<<"数据已经删除";
+         
+             else
+                if(x == 'S')
+                cout<<"数据已经排序";
+          
+             else
+                if(x == 'Q')
+          
+             return 0;
+        }
+        
+        
+        
+        #include<iostream>                           //第二问
+   using namespace std;
+
+   int main()
+   {
+       char x;
+       cout<<"Menu: A(dd) D(elete) S(ort) Q(uit,Select one:)";
+       cin>>x;
+       switch(x)    {
+       case'A':
+           cout<<"数据已经增加"<<endl;
+           break;
+       case'D':
+           cout<<"数据已经删除"<<endl;
+           break;
+       case'S':
+           cout<<"数据已经排序"<<endl;
+           break;
+       case'Q':
+           break;
+       }
+       return 0;
+}
