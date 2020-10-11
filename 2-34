@@ -1,0 +1,26 @@
+#include<iostream>
+using namespace std;
+enum ballresult {red,yellow,blue,white,black};
+int main()
+{
+    int i=0,x=red,y=yellow,z=blue;
+    
+    for(;x <= blue;)
+    {
+        for(;y <= white;)
+        {
+             for(;z <= black;z++)
+            {
+                 cout<<"the ball game result is:"<<x<<","<<y<<","<<z<<endl;
+                 i++;
+            }
+            y++;
+            z = y+yellow;
+        }
+        x++;
+        y = x+yellow;
+        z = x+blue;
+    }
+    cout<<"the methed of getting the ball:"<<i<<endl;   
+    return 0;
+}
