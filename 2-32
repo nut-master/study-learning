@@ -1,0 +1,46 @@
+ 20:26:36
+2-32(1)#include<iostream>
+using namespace std;
+
+int main()
+{
+    int a = 66,x;
+    cout<<"can you guess me?"<<endl;
+    cout<<"please enter a number:"<<endl;
+    cin>>x;
+    
+    while(x != a){
+    if(x < a)
+      {cout<<"(||๐_๐)please enter bigger\a"<<endl;
+       cin>>x;}
+    else
+       {cout<<"(Σ( ° △ °|||)︴please enter smaller\a"<<endl;
+       cin>>x;}
+    }
+    cout<<"(❁´︶`❁)you are so smart<<endl";
+    return 0;
+}
+
+ 20:26:36
+2-32(2)#include<iostream>
+using namespace std;
+
+int main()
+{
+    int a = 66,x;
+    cout<<"can you guess me?"<<endl;
+    cout<<"please enter a number:"<<endl;
+    cin>>x;
+    
+    do{
+    if(x < a)
+      {cout<<"(||๐_๐)please enter bigger\a"<<endl;
+       cin>>x;}
+    else
+       {cout<<"(Σ( ° △ °|||)︴please enter smaller\a"<<endl;
+       cin>>x;}
+    }while(x != a);
+    cout<<"(❁´︶`❁)you are so smart<<endl";
+    return 0;
+}
+
