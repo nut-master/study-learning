@@ -1,0 +1,83 @@
+//while语句
+        #include<iostream>
+      using namespace std;
+ 
+      int main()
+      {
+       int a,b,c,d,x=8;
+       bool f;
+       cout<<"the prime number is:2,3,5,7";
+       while(x <= 100){
+   a = x%2;
+       b = x%3;
+       c = x%5;
+       d = x%7;
+       f = (a!=0)&&(b!=0)&&(c!=0)&&(d!=0);
+       if(f == false)
+       x++;
+       else{
+       cout<<","<<x;
+       x++;
+       }
+       }
+    
+       return 0;
+       }
+       
+       
+       
+       
+       #include<iostream>                      //do  while语句实现
+using namespace std;
+
+int main()
+{
+    int a,b,c,d,x=8;
+    bool f;
+    cout<<"the prime number is:2,3,5,7";
+    do
+    {
+    a = x%2;
+    b = x%3;
+    c = x%5;
+    d = x%7;
+    f = (a!=0)&&(b!=0)&&(c!=0)&&(d!=0);
+    if(f == false)
+       x++;
+    else{
+       cout<<","<<x;
+       x++;
+    }
+    }while(x <= 100);
+    
+    return 0;
+}
+
+
+
+
+#include<iostream>                 //for语句实现
+using namespace std;
+
+int main()
+{
+    int a,b,c,d,x=8;
+    bool f;
+    cout<<"the prime number is:2,3,5,7";
+    for(;x<=100;)
+    {
+    a = x%2;
+    b = x%3;
+    c = x%5;
+    d = x%7;
+    f = (a!=0)&&(b!=0)&&(c!=0)&&(d!=0);
+    if(f == false)
+       x++;
+    else{
+       cout<<","<<x;
+       x++;
+    }
+    }
+    
+    return 0;
+}
