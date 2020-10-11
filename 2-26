@@ -1,0 +1,18 @@
+#include<iostream>
+       using namespace std;
+
+       int main()
+       {
+    
+           char x;
+           cout <<"is it raining now?Please enter \"Y\" for yes or \"N\" for no."<<endl;
+           cin >> x;
+           if (x == 'Y')
+              cout<<"it is raining now.";
+           else
+           if (x == 'N')
+              cout<<"it is not raining now.";
+           else
+              cout<<"is it raining now?";
+           return 0;
+        }
